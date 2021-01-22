@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>helloAll</title>
+    <title>helloYou</title>
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <script src="{{ asset('js/app.js') }}"></script>
@@ -14,8 +14,8 @@
   <body>
 
     <div class="container">
-      <h1>- /helloAll: saluta tutti gli utenti in inglese (statico, no variabili)</h1>
-      <h2>hello all users in english</h2>
+      <h1>- /helloYou: saluta utente per nome (variabile) in inglese</h1>
+      <h2>hello: "{{ $name }}", you specific english variable user name</h2>
 
     </div>
 

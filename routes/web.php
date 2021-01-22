@@ -20,3 +20,10 @@ Route::get('/', function () {
 Route::get('/helloAll', function () {
   return view('helloAll');
 });
+
+Route::get('/helloYou', function () {
+
+  return view('helloYou', [
+    'name' => 'Gordon Ramsay'
+  ]);
+});
