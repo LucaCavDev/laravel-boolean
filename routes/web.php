@@ -34,3 +34,6 @@ Route::get('/helloYou2', function () {
     'name' => 'Mr Bean'
   ]);
 });
+
+
+Route::get('/holaTodo', 'MainController@test');
