@@ -36,4 +36,4 @@ Route::get('/helloYou2', function () {
 });
 
 
-Route::get('/holaTodo', 'MainController@test');
+Route::get('/holaTodo', 'MainController@espanol');

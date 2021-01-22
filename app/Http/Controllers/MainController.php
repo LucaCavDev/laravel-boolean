@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-  public function test() {
+  public function espanol() {
     return view('holaTodo');
   }
 
