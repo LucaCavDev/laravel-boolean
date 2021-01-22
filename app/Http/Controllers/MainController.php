@@ -16,4 +16,11 @@ class MainController extends Controller
     ]);
   }
 
+  public function espanolTu2() {
+
+    $name = 'Don Quisciotte';
+    return view('holaTu', compact('name'));
+  }
+
+
 }
