@@ -15,7 +15,7 @@
 
     <div class="container">
       <h1>- /holaTu: saluta utente per nome (variabile) in spagnolo</h1>
-      <h2>hello: "{{ $name }}", you specific english variable user name</h2>
+      <h2>hola Tu: "{{ $name }}", rosa rosae rosae rosam rosa rosa</h2>
 
     </div>
 

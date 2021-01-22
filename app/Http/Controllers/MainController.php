@@ -10,4 +10,10 @@ class MainController extends Controller
     return view('holaTodo');
   }
 
+  public function espanolTu() {
+    return view('holaTu', [
+      'name' => 'Sancho Panza'
+    ]);
+  }
+
 }
