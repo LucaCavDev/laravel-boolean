@@ -27,3 +27,10 @@ Route::get('/helloYou', function () {
     'name' => 'Gordon Ramsay'
   ]);
 });
+
+Route::get('/helloYou2', function () {
+
+  return view('helloYou', [
+    'name' => 'Mr Bean'
+  ]);
+});
